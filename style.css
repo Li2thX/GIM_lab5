@@ -24,14 +24,20 @@ section {
 }
 
 .slider-section .owl-carousel .item img {
-    width: 100%;
-    height: auto;
+    width: auto; /* Встановлюємо автоматичну ширину */
+    max-width: 90%; /* Максимальна ширина для уникнення розтягування */
+    max-height: 400px; /* Максимальна висота зображення */
+    display: block;
+    margin: 0 auto;
     border-radius: 10px;
 }
 
 .gallery-section .unite-gallery img {
-    width: 100%;
+    width: auto; /* Встановлюємо автоматичну ширину */
+    max-width: 300px; /* Максимальна ширина для галереї */
+    height: auto;
     border-radius: 10px;
+    margin: 10px;
 }
 
 footer {
